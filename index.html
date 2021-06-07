@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Prueba Javascript</title>
+</head>
+<body> 
+<!-- <script>
+document.write(`<br>Primero número a resolver ${numero4}</br>`)
+document.write(`<br>Segundo número a resolver ${numero5}</br>`) 
+</script> -->
+
+<p id="ejemplo1"></p>
+<p id="ejemplo2"></p>
+<p><input type="button"id="ejemplo3" value="ejemplo3"></p>
+<p id="ejemplo4"></p>
+<p id="ejemplo5"></p>
+
+<script>
+numero= 18
+ if(numero >16){
+let funcion=document.getElementById("ejemplo1").innerHTML=(`Es mayor de: ${numero}`)
+}
+else{
+document.write("no es una persona adulta")
+}
+
+var texto="Hola,Soy Sergio Stanly"
+var caracteres = texto.length
+document.getElementById("ejemplo2").innerHTML=`Este texto tiene: ${caracteres}`
+
+
+boton=document.getElementById("ejemplo3")
+boton.onclick=function(){
+    document.write(`Es mayor de: ${numero}`)
+}
+
+
+
+
+document.getElementById("ejemplo4").innerHTML = "ejemplo 4"
+var DNI = [7,4,9,2,9,9,1,1];
+var igual= "SI";
+var max = 9;
+document.getElementById("ejemplo5").innerHTML = "El mayor es " + max + " y " + igual + " hay números repetidos"
+
+   
+
+
+</script>
+
+
+<button onclick="
+let numeroSumar=numero4 + numero5
+alert('El resultado es ' + numeroSumar)">Sumar</button>
+<button onclick="
+let numeroSumar=numero4 - numero5
+alert('El resultado es ' + numeroSumar)">Restar</button>
+<button onclick="
+let numeroSumar=numero4 * numero5
+alert('El resultado es ' + numeroSumar)">Multiplicar</button>
+<button onclick="
+let numeroSumar=numero4 / numero5
+alert('El resultado es ' + numeroSumar)">Dividir</button>
+<button onclick="
+ let numeroSumar=numero4 % numero5
+alert('El resultado es ' + numeroSumar)">Resto</button>
+
+
+
+<script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+/* button{
+font-size:30px;
+box-shadow:0 0 5px black ;
+width:150px;
+height:100px;
+
+}
+button:active{
+    width:158px;
+    height:107px;
+    box-shadow: none;
+}
+body{
+background-color:rgb(203, 240, 255)
+}
+
+ div{
+display:flex;
+width:100%;
+height:500px;
+justify-content: space-around;
+flex-direction: row;
+align-items: center;
+} */
